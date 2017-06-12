@@ -4,32 +4,23 @@
 		<title>Test page: Don't panic!</title>
 		<meta charset="utf-8">
 		<style>
+			/* GLOBAL STYLES */
 	    	a {
 	    		color: red;
 	    	}
-			div {
-				border: 1px solid black;
-			}
-			div a {
-				color: green;
-			}
-			#exec-bio {
-				background-color: lightgray;
-			}
-			#jet-flight {
-				background-color: orange;
-			}
-			.my-bio {
-				background-color: azure;
-			}
+	    	
+	    	/* BIO STYLES */
 			.bio-box {
 				border: 1px solid black;
 			}
-			.bio-box a {
+			.bio-copy a {
 				color: green;
 			}
-			
 
+			/* SOCIAL STYLES */
+			.social-link {
+				color: blue;
+			}
 		</style>
 	</head>
 	<body>
@@ -46,17 +37,14 @@
 			</li>
 		</ul>
 		<h2>I'm an h2</h2>
-		<div id="exec-bio" class="bio-box">
-			<a href="http://example.com">I'm a link</a>
-		</div>
-		<div id="jet-flight" class="bio-box">
-			<a href="http://example.com">I'm a link</a>
-		</div>
-		<div class="bio-box my-bio">
-			<a href="http://example.com">I'm a link</a>
-		</div>
 		<div class="bio-box">
-			<a href="http://example.com">I'm a link</a>
+			<h3>LJ Nissen</h3>
+			<a href="http://twitter.com/lj_nissen" class="social-link">here</a>
+			<div class="bio-copy">
+				<p>
+				World class investor LJ Nissen is the author of <a href="small-cap-value.com">Small-Cap-Value</a> the most covenient way of keeping up to date of key financial data of Small-Cap stocks.
+				</p>
+			</div>
 		</div>
 	</body>
 </html>
