@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-		<head>
-		<title>Test page: Don't panic!</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="/css/main.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	</head>
+	<head>
+  	  
+    	<title>Test Page: Don't Panic</title>
+  	  
+    <link href="/favicon.png" rel="icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100" rel="stylesheet"> 
+  <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
 	<body>
 	<header class="header">
-	<nav>
-		<ul class="header-nav nav-links">
-			<li><a href="/">Home</a></li>
+  <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
 <li class="dropdown">
-  <span class="drop-trigger" href="/blog">Blog</span>
+  <a class="drop-trigger" href="/blog">Blog</a>
   <ul class="drop-menu">
+  	<li>Recent posts</li>
     
       <li><a href="/2017/06/17/title-of-second-post.html">This is the title of the post</a></li>
     
@@ -27,30 +34,36 @@
 
 
 
-		</ul>
-	</nav>
-	<a href="/" class="header-logo">
-		<img src="/images/logo.png" alt="Learn Enough">
-	</a>
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+    <img src="/images/logo.png" alt="Learn Enough">
+  </a>
 </header>
 	
 	<div class="content-container">
 		<div class="home">
 	<div class="full-hero hero-home">
-		<div class="hero-content">
-			<h1>CODE DANGEROUSLY</h1>
-			<ul class="social-list">
-				<li>
-					<a href="http://example.com" class="social-link">Fb</a>
-				</li>
-				<li>
-					<a href="http://example.com" class="social-link">Tw</a>	
-				</li>
-				<li>
-					<a href="http://example.com" class="social-link">Gh</a>
-				</li>
-			</ul>
-		</div>
+	  <div class="hero-content">
+	    <h1>CODE DANGEROUSLY</h1>
+	    <ul class="social-list">
+	      <li>
+	        <a href="http://example.com/" class="social-link">
+	          <i class="fa fa-facebook"></i>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://example.com/" class="social-link">
+	          <i class="fa fa-twitter"></i>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://example.com/" class="social-link">
+	          <i class="fa fa-github"></i>
+	        </a>
+	      </li>
+	    </ul>
+	  </div>
 	</div>
 	<div class="home-callout">
 		<h1 class="callout-title">The LJ Nissen Story</h1>
@@ -95,7 +108,7 @@
 	      <div class="post-byline">
 	        <img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150">
 	        <a href="http://twitter.com/lj_nissen"
-	        class="social-link">Tw</a>
+	        class="social-link"><i class="fa fa-twitter"></i></a>
 	        by: 
 	        <span> - June 17, 2017</span>
 	      </div>
@@ -122,7 +135,7 @@ the spleen and regulating the circulation.</p>
 			<div class="bio-box">
 				<img src="http://placekitten.com/g/400/400">
 				<h3>LJ Nissen</h3>
-				<a href="http://twitter.com/lj_nissen" class="social-link">Tw</a>
+				<a href="http://twitter.com/lj_nissen" class="social-link"><i class="fa fa-twitter"></i></a>
 				<div class="bio-copy">
 					<p>
 					World class investor LJ Nissen is the author of <a href="small-cap-value.com">Small-Cap-Value</a> the most covenient way of keeping up to date of key financial data of Small-Cap stocks.
@@ -132,7 +145,7 @@ the spleen and regulating the circulation.</p>
 			<div class="bio-box">
 				<img src="http://placekitten.com/g/400/400">
 				<h3>LJ Nissen</h3>
-				<a href="http://twitter.com/lj_nissen" class="social-link">Tw</a>
+				<a href="http://twitter.com/lj_nissen" class="social-link"><i class="fa fa-twitter"></i></a>
 				<div class="bio-copy">
 					<p>
 					World class investor LJ Nissen is the author of <a href="small-cap-value.com">Small-Cap-Value</a> the most covenient way of keeping up to date of key financial data of Small-Cap stocks.
@@ -142,7 +155,7 @@ the spleen and regulating the circulation.</p>
 			<div class="bio-box">
 				<img src="http://placekitten.com/g/400/400">
 				<h3>LJ Nissen</h3>
-				<a href="http://twitter.com/lj_nissen" class="social-link">Tw</a>
+				<a href="http://twitter.com/lj_nissen" class="social-link"><i class="fa fa-twitter"></i></a>
 				<div class="bio-copy">
 					<p>
 					World class investor LJ Nissen is the author of <a href="small-cap-value.com">Small-Cap-Value</a> the most covenient way of keeping up to date of key financial data of Small-Cap stocks.
@@ -162,8 +175,9 @@ the spleen and regulating the circulation.</p>
 			<li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
 <li class="dropdown">
-  <span class="drop-trigger" href="/blog">Blog</span>
+  <a class="drop-trigger" href="/blog">Blog</a>
   <ul class="drop-menu">
+  	<li>Recent posts</li>
     
       <li><a href="/2017/06/17/title-of-second-post.html">This is the title of the post</a></li>
     
